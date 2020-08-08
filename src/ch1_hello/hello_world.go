@@ -9,4 +9,7 @@ func main() {
 	if len(os.Args) > 1 {
 		fmt.Println("Hello World", os.Args[1])
 	}
+
+	s := "你好"
+	fmt.Printf("len(s):%d", len(s))
 }
